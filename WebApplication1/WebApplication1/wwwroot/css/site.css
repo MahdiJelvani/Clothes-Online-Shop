@@ -1,0 +1,200 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+input:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24
+}
+
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.header {
+    position: relative;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.top-navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F6F8;
+    color: #666666;
+    height: 50px;
+    padding:12px;
+}
+
+.usd {
+    color:  #000000;
+}
+
+.inline {
+    display: inline-flex;
+}
+
+#logo{
+    width:74px;
+    height:20px;
+}
+
+
+.navbar-icon-button{
+    border:none;
+    padding:0;
+    
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-form {
+    border: 0.5px solid black;
+    outline: none;
+}
+
+.brand-div{
+    margin-left:165px;
+}
+
+.navbar-left-items{
+    margin-left:150px;
+}
+
+.search-input {
+    border: none;
+}
+
+.search-icon{
+    align-self:center;
+    margin-left:10px;
+}
+
+.us-img{
+    margin-right:10px;
+}
+
+
+.promotional {
+    display:flex;
+    position:absolute;
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+    color:white;
+    justify-content:center;
+  
+}
+
+.promotional p{
+    margin-top:5px;
+}
+
+.container {
+    position: relative;
+  
+}
+
+.item {
+    position: absolute;
+}
+
+#item_0 {
+    left: 0px;
+    top: 0px;
+    width: 1440px;
+    height: 680px;
+    background-color: rgba(255, 213, 197, 1);
+}
+
+#item_1 {
+    left: 0px;
+    top: 0px;
+    width: 1440px;
+    height: 680px;
+    background-color: rgba(196, 196, 196, 1);
+}
+
+#item_3 {
+    left: 548px;
+    top: 67px;
+    width: 720px;
+    height: 747px;
+}
+
+#item_4 {
+    left: 135px;
+    top: 220px;
+    font-size: 64px;
+    width: 563px;
+    font-family: "Jost*";
+    font-weight: Semi;
+    color: rgba(0, 0, 0, 1);
+}
+
+#item_5 {
+    left: 135px;
+    top: 324px;
+    font-size: 16px;
+    width: 454px;
+    font-family: "Jost*";
+    font-weight: Book;
+    color: rgba(0, 0, 0, 1);
+}
+
+#item_6 {
+    left: 175px;
+    top: 425px;
+    font-size: 14px;
+    width: 94px;
+    font-family: "Jost*";
+    font-weight: Semi;
+    color: rgba(0, 0, 0, 1);
+}
+
+.login-form-body{
+    margin-top:100px;
+}
+
+.login-google{
+    border: 1px solid #666666;
+    margin-bottom:20px;
+
+}
+
+.new-signup-link{
+    margin-left:65px;
+}
+
+.login-btn{
+    height:57px;
+    margin-top:20px;
+}
+.forget-pass-link{
+    margin-left:45px;
+    
+}
