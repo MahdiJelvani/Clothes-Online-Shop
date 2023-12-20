@@ -16,20 +16,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Rayan\Desktop\term7\برنامه نویسی وب\mini project\1\final\WebApplication1\WebApplication1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Rayan/Desktop/term7/برنامه نویسی وب/mini project/1/final/WebApplication1/WebApplication1/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/Rayan/Desktop/term7/برنامه نویسی وب/mini project/1/final/WebApplication1/WebApplication1/Views/Cart/CartPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0UGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rayan/Desktop/term7/برنامه نویسی وب/mini project/1/final/WebApplication1/WebApplication1/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/Rayan/Desktop/term7/برنامه نویسی وب/mini project/1/final/WebApplication1/WebApplication1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Rayan/Desktop/term7/برنامه نویسی وب/mini project/1/final/WebApplication1/WebApplication1/Views/Identity/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcbG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Rayan/Desktop/term7/برنامه نویسی وب/mini project/1/final/WebApplication1/WebApplication1/Views/Identity/profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlccHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Rayan/Desktop/term7/برنامه نویسی وب/mini project/1/final/WebApplication1/WebApplication1/Views/Identity/signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcc2lnbnVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rayan/Desktop/term7/برنامه نویسی وب/mini project/1/final/WebApplication1/WebApplication1/Views/Product/ProductInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0SW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Rayan/Desktop/term7/برنامه نویسی وب/mini project/1/final/WebApplication1/WebApplication1/Views/Shared/Error.cshtml]

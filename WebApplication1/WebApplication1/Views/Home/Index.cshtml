@@ -2,14 +2,103 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div >
-   @*  <div class="container">
-        <img class="slider-img" src="~/assets/img/slider.png" />
-        <p id="item_4" class="text-object item">Autumn’s Coming...</p>
-        <p id="item_5" class="text-object item">We started with humble beginnings — selling out of our basement and frantically shipping orders as soon as we woke up. </p>
-        <button id="item_6" class="text-object item">SHOP NOW</button>
-    </div> *@
 
+
+<div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content ">
+         
+            <div class="modal-body text-center popup-content mb-3">
+               <img src="~/Assets/img/popup.svg"/>
+               <div class="popup-title">
+                <h2>DON’T MISS OUT</h2>
+                <p>Sign up to receive 20% off your next order</p>
+                </div>
+            </div>
+
+            <div class="row mb-4 mt-4">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="email" class="form-control email-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <button id="subscribe-btn" class="btn btn-dark ">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- Other content of the index page goes here -->
+<!-- Include Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#myModal').modal('show');
+    });
+</script>
+
+
+
+<div class="container mainPage">
+    <div   >
+        <img class="slider-img " src="~/assets/img/slider.png" width="122.7%" height="680px"/>
+        <p id="item_4" class="text-object item me-3">Autumn’s Coming...</p>
+        <p id="item_5" class="text-object item me-3">We started with humble beginnings — selling out of our basement and frantically shipping orders as soon as we woke up. </p>
+        <button id="item_6" class="text-object item shop-now-btn">SHOP NOW</button>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img id="item_jeans" class="item img-fluid" src="~/Assets/img/1.svg" width="446px" height="480px" alt="Image">
+            </div>
+            <div class="col-4">
+                <img id="item_shirts" class="item img-fluid" src="~/Assets/img/2.svg" width="446px" height="480px" alt="Image">
+            </div>
+            <div class="col-4">
+                <img id="item_footwear" class="item img-fluid" src="~/Assets/img/3.svg"width="446px" height="480px" alt="Image">
+            </div>
+        </div>
+    </div>
+
+    <div class="container footer-banner">
+        <img id="item_banner" class='item' src="~/Assets/img/banner.svg" alt="Image">
+        <p id="item_selectedStyles" class="text-object item">Selected Styles</p>
+        <p id="item_autmnColl" class="text-object item">
+            Autumn Collection
+            2020
+        </p>
+        <button id="item_shopColl" class="text-object item shop-now-btn ">SHOP THE COLLECTION</button>
+    </div>
+
+    <div id="footer-subBanners" class="row ">
+        <div id="subbanner1" class="container col-4 ">
+        <img id="banner_02" class='item' src="~/Assets/img/banner2.svg" alt="Image">
+        <button id="btn-banner" class="text-object item">SHOP T-SHIRTS</button>
+        <p id="enjoySummer" class="text-object item">Enjoy the Summer</p>
+        <p id="classictee" class="text-object item">Classic Tee</p>
+    </div>
+        <div id="subbanner2" class="container col-4">
+            <div id="banner_03-bg" class="rectangle item"></div>
+            <img id="banner_03" class='item' src="~/Assets/img/banner3.svg" alt="Image">
+           
+            <button id="btn-banner" class="text-object item">VIEW ALL ITEMS</button>
+            <div id="empty0" class="rectangle item"></div>
+            <p id="banner3-title0" class="text-object item">Shop Now.</p>
+            <p id="banner3-title1" class="text-object item"> Enjoy Now.</p>
+            <p id="banner3-title2" class="text-object item"> Pay Later.</p>
+            <div id="empty1" class="rectangle item"></div>
+            <img id="afterpart-logo" class='item' src="~/Assets/img/Logo afterpay.svg" alt="Image">
+        </div>
+    </div>
 
 
 </div>

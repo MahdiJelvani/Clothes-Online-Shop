@@ -26,6 +26,14 @@ app.MapControllerRoute(
 
 app.MapControllerRoute(
     name: "Identity",
-    pattern: "{controller=Identity}/{action=signup}");
+    pattern: "{controller=Identity}/{action=profile}");
+
+app.MapControllerRoute(
+    name: "Product",
+    pattern: "{controller=Product}/{action=ProductInfo}");
+
+app.MapControllerRoute(
+    name: "Cart",
+    pattern: "{controller=Cart}/{action=CartPage}");
 
 app.Run();

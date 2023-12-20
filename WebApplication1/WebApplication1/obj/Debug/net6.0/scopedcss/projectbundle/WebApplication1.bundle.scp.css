@@ -3,6 +3,8 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 
+
+
 .container[b-bddmc6yalx] {
     position: relative;
 }
@@ -48,14 +50,17 @@ button.accept-policy[b-bddmc6yalx] {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
 #footer[b-bddmc6yalx] {
-    width:100%;
+    position: absolute;
+    width: 100%;
     color: #444444;
     font-size: 14px;
     background: #f1f0f2;
-    bottom:0;
-   position: absolute;
-   z-index:0;
+    bottom: -150px;
+    
+    z-index: 10;
+    left: 0;
 }
 
     #footer .footer-top[b-bddmc6yalx] {
